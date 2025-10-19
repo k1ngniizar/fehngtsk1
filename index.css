@@ -51,6 +51,7 @@
       box-shadow: var(--shadow);
       padding: 1.5rem;
       gap: 1.5rem;
+      width: 100%;
     }
 
     main[data-testid="test-profile-card"] {
