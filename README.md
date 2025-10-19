@@ -1,9 +1,9 @@
-🪪 Profile Card
+## 🪪 Profile Card
 
 A responsive and accessible Profile Card built with HTML, CSS, and Vanilla JS.
 It displays user details, current time, avatar, social links, hobbies, and dislikes — all with required data-testid attributes for testing.
 
-🚀 Features
+## 🚀 Features
 
 Semantic HTML structure (article, header, section, nav, figure)
 
@@ -25,14 +25,14 @@ test-user-social-<network>
 test-user-hobbies
 test-user-dislikes
 
-🧭 How to Run
+## 🧭 How to Run
 
 Clone the project:
 
 git clone https://github.com/k1ngniizar/fehngtsk1.git
 cd fehngtsk1
 
-🧠 Tech Stack
+## 🧠 Tech Stack
 
 HTML5
 
@@ -40,7 +40,7 @@ CSS3 (Flexbox)
 
 Vanilla JavaScript (ES6)
 
-✨ Author
+## ✨ Author
 
 Ebenezer Cheetham-West
 📧 huncleniizar@gmail.com
