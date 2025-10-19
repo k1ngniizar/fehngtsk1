@@ -64,6 +64,7 @@
       box-shadow: var(--shadow);
       overflow: hidden;
       padding: 1.5rem;
+      min-height: 100vh;
       gap: 1.5rem;
     }
     
@@ -80,7 +81,9 @@
       main[data-testid="test-profile-card"] {
         flex-direction: row;
         max-width: 90vw;
-      border-radius: var(--border-radius);
+        height: fit-content;
+        min-height: fit-content;
+        border-radius: var(--border-radius);
       }
 
       .content-details{
