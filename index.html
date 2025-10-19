@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+  <main data-testid="test-profile-card" aria-label="User Profile Card">
+
+    <!-- header -->
+    <header class="test-profile-card">
+      <figure>
+        <img src="/k2ng.jpg" alt="User avatar" data-testid="test-user-avatar" />
+      </figure>
+
+      <article>
+        <h2 data-testid="test-user-name" aria-label="User name">Ebenezer Cheetham-West</h2>
+
+        <p data-testid="test-user-bio" aria-label="User bio">
+          A passionate educator and software developer exploring full-stack development and creative digital projects.
+        </p>
+        <time data-testid="test-user-time" id="user-time"></time>
+      </article>
+    </header>
+
+
+
+    <nav data-testid="test-user-social-links" aria-label="User social links">
+
+      <ul>
+        <li><a href="https://x.com/K1ngNiizar?t=I4c3CPPDRpDMbwEuaq6oVA&s=08" target="_blank" rel="noopener noreferrer"
+            data-testid="test-user-social-twitter">Twitter</a></li>
+        <li><a href="https://github.com/k1ngniizar" target="_blank" rel="noopener noreferrer"
+            data-testid="test-user-social-github">GitHub</a></li>
+      </ul>
+    </nav>
+
+    <section data-testid="test-user-hobbies">
+      <h3>Hobbies</h3>
+      <ul>
+        <li>Drumming</li>
+        <li>Teaching</li>
+      </ul>
+    </section>
+
+    <section data-testid="test-user-dislikes">
+      <h3>Dislikes</h3>
+      <ul>
+        <li>Procrastination</li>
+        <li>Disorganized code</li>
+        <li>Cluttered UI</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <script src="/index.js">
+
+  </script>
+</body>
+
+</html>
